@@ -1,0 +1,265 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    
+}
+#main{
+    width: 100%;
+ overflow-x: hidden;
+
+ 
+}
+#home {
+    position: relative;
+    height: 100vh;
+    
+}
+#home img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    z-index: 999;
+}
+#circle{
+    height: 60vw;
+    width: 60vw;
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+#top img{
+  height: 100%;
+  width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-180deg);
+}
+#btm img{
+    height: 100%;
+    width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  
+  #btm img:nth-child(1){
+    transform: translate(-50%,-50%)scale(1.9);
+  }
+  #btm img:nth-child(2){
+    transform: translate(-50%,-50%)scale(1.4);
+  }
+
+  #top img:nth-child(1){
+    transform: translate(-50%,-50%)rotate(-180deg)scale(1.9);
+  }
+  #top img:nth-child(2){
+    transform: translate(-50%,-50%)rotate(-180deg)scale(1.4);
+  }
+
+  #smcircle{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    height:40vw;
+    width: 40vw;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+  
+  }
+  #nav1{
+    top: 0 ;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  position: absolute;
+    z-index: 99999;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 32px;
+
+   
+  }
+  #box1{
+   
+    height: 20px;
+    width: 100px;
+    line-height: 30px;
+    
+
+  }
+  #clrs{
+    display: flex;
+  }
+  #one{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(225,225,225);
+  }
+  #two{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(160,160,160);
+  }
+  #three{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(120,120,120);
+  }
+  #four{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(80,80,80);
+  }
+  #five{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(42,42,42);
+  }
+  #six{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 0, 0);
+  }
+  #fnts{
+    width: 100%;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family:"DS-Digital";
+    letter-spacing: 1px;
+    word-spacing: 3.9px;
+  }
+  #nav1>h1{
+    font-size: 20px;
+    font-family: "Neue Haas Grotesk Text Pro";
+ text-transform: uppercase;
+
+  }
+  #navimg{
+    height: 90px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    padding: 20px 32px;
+
+  }
+  #navimg img{
+  height: 100%;
+    width: 100px;
+  }
+
+  #centreimg{
+    z-index: 9999999;
+    position: absolute;
+    left: 61%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    height: 30vw;
+    width: 40vw;
+    font-family: "Neue Haas Grotesk Text Pro";
+  }
+  #centreimg h3{
+    color: rgb(26, 26, 26);
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 550;
+  }
+
+  #cimg img{
+    height: 17vw;
+    width: 69%;
+    object-fit: cover;
+  }
+  #overlay>h1{
+    font-weight: 400;
+    color: rgb(44, 44, 44);
+    text-transform: uppercase;
+    z-index: 999;
+    font-size: 180px;
+    font-family: "Neue Haas Grotesk Text Pro";
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 13%;
+    transform: translate(7%,10%);
+
+  }
+#home2{
+height: 100vh;
+width: 100%;
+background-color: #fff;
+position: relative;
+}
+
+#c-one{
+  height: 10vw;
+  width: 10vw;
+  background-color:rgb(213,167,180);
+  border-radius: 50%;
+  z-index: 99999999999999;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+
+}
+#pf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  z-index: 999999;
+  top: 73%;
+}
+#pf>h1{
+
+  font-size: 170px;
+  font-family: "Neue Haas Grotesk Text Pro"; 
+font-weight: 400;
+  color: rgb(255, 255, 255);
+
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+#lbox{
+  height: 33vw;
+  width: 32vw;
+  background-color: rgb(213,167,180);
+  position: absolute;
+  top: -10%;
+  left: 0%;
+}
+#ctext{
+  position: absolute;
+  color: #fff;
+  top: 60%;
+  left: 25%;
+  font-family: "Neue Haas Grotesk Text Pro"; 
+text-transform: uppercase;  
+transform: translate(-50%,-50%);
+font-size: 11px;
+letter-spacing: 2px;
+}
+#ctext h3{
+  padding-top: 20px;
+padding-left: 20px;
+}
