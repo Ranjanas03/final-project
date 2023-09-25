@@ -10,13 +10,10 @@ html,body{
 #main{
     width: 100%;
  overflow-x: hidden;
-
- 
 }
 #home {
     position: relative;
-    height: 100vh;
-    
+    height: 100vh; 
 }
 #home img{
     height: 100vh;
@@ -29,29 +26,27 @@ html,body{
 #circle{
     height: 60vw;
     width: 60vw;
- 
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 50%;
-
 }
 #top img{
   height: 100%;
   width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)rotate(-180deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)rotate(-180deg);
 }
 #btm img{
     height: 100%;
     width: 100%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
   
   #btm img:nth-child(1){
@@ -77,29 +72,22 @@ html,body{
     width: 40vw;
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
-  
   }
   #nav1{
     top: 0 ;
     left: 0;
     width: 100%;
     height: 50px;
-  position: absolute;
+    position: absolute;
     z-index: 99999;
     display: flex;
     justify-content: space-between;
-
     padding: 20px 32px;
-
-   
   }
   #box1{
-   
     height: 20px;
     width: 100px;
     line-height: 30px;
-    
-
   }
   #clrs{
     display: flex;
